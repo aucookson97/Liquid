@@ -83,7 +83,6 @@ void findNetworks() {
 void printMacAddress() {
   // the MAC address of your Wifi shield
   byte mac[6];                     
-
   // print your MAC address:
   WiFi.macAddress(mac);
   Serial.print("MAC: ");
